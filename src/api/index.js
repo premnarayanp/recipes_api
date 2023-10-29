@@ -9,7 +9,7 @@ const customFetch = async (url) => {
       const jsonData = await response.json();
       // console.log("json", jsonData);
       const recipes = jsonData.meals;
-      //console.log(recipes);
+      console.log(recipes);
 
     if (recipes) {
       return {

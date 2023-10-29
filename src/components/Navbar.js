@@ -85,7 +85,7 @@ import {addRecipesList} from '../actions/index'
              <input type="search" id="search-input" placeholder="search......"
                value={this.state.searchText} onChange={this.handleSearchChange}
              />
-            <button id="search-btn">search</button>
+            <button id="search-btn" onClick={this.handleSearchClick}>search</button>
         </div>
 
         <Link to="/my-favorites">

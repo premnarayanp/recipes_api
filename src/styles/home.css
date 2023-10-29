@@ -1,6 +1,11 @@
 .Home {
     padding: 2px;
     box-sizing: border-box;
-    overflow: hidden;
+    overflow: scroll;
     height: 92%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 20px;
+    flex-wrap: wrap;
 }

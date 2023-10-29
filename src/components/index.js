@@ -1,4 +1,4 @@
 import App from './App';
 import Navbar from './Navbar';
-
-export {App,Navbar};
+import Recipe from  './Recipe'
+export {App,Navbar,Recipe};

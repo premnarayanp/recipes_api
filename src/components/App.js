@@ -20,7 +20,7 @@ class App extends React.Component{
     render(){
 
 
-      //const {store}=this.props;
+      const {store}=this.props;
       const {recipesList}=this.props.store.getState();
   
     const Page404=()=>{
@@ -32,7 +32,7 @@ class App extends React.Component{
           <Navbar />
   
           <Routes>
-             <Route path="/" element={<Home recipesList={recipesList} />} />
+             <Route path="/" element={<Home recipesList={recipesList}  store={store}/>} />
              <Route path="*" element={<Page404/>} />
         </Routes>
         
