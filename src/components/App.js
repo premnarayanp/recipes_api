@@ -30,11 +30,13 @@ class App extends React.Component{
     return (
       <div className="App">
           <Navbar />
+
+          <Home recipesList={recipesList}  store={store}/>
   
-          <Routes>
+          {/* <Routes>
              <Route path="/" element={<Home recipesList={recipesList}  store={store}/>} />
              <Route path="*" element={<Page404/>} />
-        </Routes>
+        </Routes> */}
         
       </div>
     );
